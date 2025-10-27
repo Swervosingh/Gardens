@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+#top-img{
+    background-image: url("https://esd.ny.gov/sites/default/files/hero/long-island2_hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0 50px 0;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;    /* center horizontally */
+    gap: 5px;              /* space between h1 and h2 */
+}
+
+h1, h2 {
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 7px 15px;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #222;
+    font-size: 20px;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #222;
+    font-size: 14px;
+}
+
+#center-img {
+  text-align: center; /* centers the heading */
+  padding: 10px;
+  background-color: #edbb797a;
+  
+}
+
+.img-row {
+  display: flex;
+  justify-content: space-around; /* evenly spaced images */
+  align-items: center;
+  margin-top: 10px;
+  
+}
+
+.img-row img {
+  width: 100px;
+}
+
+.img-row img {
+  width: 100px;
+  height: 100px;       /* make sure width = height */
+  border-radius: 50%;  /* makes it circular */
+  object-fit: cover;   /* crops the image nicely inside the circle */
+}
+
+.card {
+  width: 200px;                     /* small card width */
+  background-color: #edbb797a;            /* card background */
+  border-radius: 12px;               /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* subtle shadow */
+  padding: 5px;                     /* space inside the card */
+  text-align: center;                /* center all text and image */
+  margin: 20px auto;                 /* center card horizontally */
+  font-family: sans-serif;
+}
+
+.card img {
+  border-radius: 50%;                /* make image circular */
+  width: 70px;
+  height: 70px;
+  object-fit: cover;                 /* crops nicely */
+  margin-top: 10px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.card p {
+  font-size: 10px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.card h4 {
+  font-size: 15px;
+  margin-top: 0;
+  color: #333;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+}
+
+.card {
+  border-top: 4px solid #0000001e;
+}
